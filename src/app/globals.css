@@ -24,13 +24,55 @@
   }
 }
 
-body {
+/* Global CSS */
 
+
+body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
+
+@media (min-width: 640px) {
+  .css-3vas3 {
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.648px;
+  }
+}
+
+@media (min-width: 768px) {
+  .css-3vas3 {
+    font-size: 48px;
+    line-height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.96px;
+  }
+}
+
+.border-outline-default {
+  border-color: hsla(0, 0%, 100%, .12);
+}
+
+.bg-background-secondary {
+  background-color: rgba(28, 29, 35, .95);
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(246 108 48 / var(--tw-text-opacity));
+}
+
+.text-text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(197 197 202 / var(--tw-text-opacity));
+}
+
+
 
 /* Navbar */
 .nav-items {
@@ -154,3 +196,36 @@ body {
   left: 0;
 }
 
+
+/* Promo Section */
+
+.img-container {
+  animation: scroll 12s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.css-80xpf1 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: normal;
+  letter-spacing: -0.216px;
+}
+
+@media (min-width: 640px) {
+  .css-80xpf1 {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.384px;
+  }
+}
