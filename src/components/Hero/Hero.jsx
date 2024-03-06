@@ -30,7 +30,7 @@ const Hero = () => {
                     <Image alt="video-main-bg" fetchpriority="high" width="2560" height="1485" decoding="async" data-nimg="1" className="h-auto w-full max-w-[1280px] relative" src="/images/promo.jpg" style="color: transparent;" />
                     <div className="absolute transition top-0 left-0 right-0 bottom-0 bg-black  hover:opacity-50 opacity-0 cursor-pointer mask"></div>
                     <div className="absolute top-1/2 left-1/2 play-button rounded-full bg-[#f66c30] w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20">
-                        <span class="animate-ping z-30 absolute inline-flex w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full bg-[#f66c30] opacity-75"></span>
+                        <span className="animate-ping z-30 absolute inline-flex w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full bg-[#f66c30] opacity-75"></span>
                         <svg width="22" height="29" viewBox="0 0 22 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative scale-75 md:scale-90 lg:scale-100 z-40"><path d="M20.6842 12.6992C21.8134 13.496 21.8134 15.1706 20.6842 15.9674L3.65311 27.9855C2.32826 28.9204 0.499999 27.9729 0.499999 26.3514L0.5 2.31531C0.5 0.693811 2.32826 -0.25369 3.65311 0.681195L20.6842 12.6992Z" fill="white"></path>
                         </svg>
                     </div>
@@ -38,14 +38,14 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div class="mb-10 sm:mb-12 md:mb-[60px] px-6">
-                <div class="p-3 pt-6 sm:p-4 sm:pt-8 md:p-6 md:pt-10 rounded-3xl border border-solid border-gray-500 bg-[#1c1d23f2] max-w-full lg:max-w-[1280px] mx-auto">
-                    <div class="flex items-center gap-4 sm:gap-6 justify-center">
-                        <div class="h-[2px] w-4 sm:w-8 md:w-12 lg:w-16 bg-gray-500"></div>
-                        <p class={`${inter.className} font-bold  md:text-xl tracking-tight text-base`}>Trusted by customers from</p>
-                        <div class="h-[2px] w-4 sm:w-8 md:w-12 lg:w-16 bg-gray-500 "></div>
+            <div className="mb-10 sm:mb-12 md:mb-[60px] px-6">
+                <div className="p-3 pt-6 sm:p-4 sm:pt-8 md:p-6 md:pt-10 rounded-3xl border border-solid border-gray-500 bg-[#1c1d23f2] max-w-full lg:max-w-[1280px] mx-auto">
+                    <div className="flex items-center gap-4 sm:gap-6 justify-center">
+                        <div className="h-[2px] w-4 sm:w-8 md:w-12 lg:w-16 bg-gray-500"></div>
+                        <p className={`${inter.className} font-bold  md:text-xl tracking-tight text-base`}>Trusted by customers from</p>
+                        <div className="h-[2px] w-4 sm:w-8 md:w-12 lg:w-16 bg-gray-500 "></div>
                     </div>
-                    <div class="px-4 py-3 sm:px-6 sm:py-4 flex flex-wrap lg:flex-nowrap justify-center gap-2">
+                    <div className="px-4 py-3 sm:px-6 sm:py-4 flex flex-wrap lg:flex-nowrap justify-center gap-2">
                         <Image src="/images/customers/photoroomlogo.webp" alt="PhotoRoom_logo" width="128" height="57" className='mr-4' />
                         <Image src="/images/customers/kilo.webp" alt="PhotoRoom_logo" width="128" height="57" />
                         <Image src="/images/customers/thg2.webp" alt="PhotoRoom_logo" width="128" height="57" />
