@@ -1,8 +1,8 @@
-import React from 'react'
-import { Inter } from 'next/font/google'
+import React from 'react';
+import { inter } from '@/utils/fonts';
 import Image from "next/image";
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 const Promo = () => {
     return (
@@ -23,11 +23,11 @@ const Promo = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 inter-font">
                 <div className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden border-solid border border-[#e0e1ea1a] bg-background-secondary">
                     <div className="p-6 pb-4 sm:p-8 sm:pb-6 md:p-10 md:pb-8 space-y-1 ">
                         <h6 className={`${inter.className} text-left text-text-primary font-bold css-80xpf1`}>AI-driven search</h6>
-                        <p className="MuiTypography-root MuiTypography-body2 text-left text-text-secondary css-x1l92z">Experience search that prioritizes the best brands from your keywords</p>
+                        <p className={`${inter.className} text-left text-text-secondary text-base font-medium tracking-tight`}>Experience search that prioritizes the best brands from your keywords</p>
                     </div>
                     <div className="">
                         <Image src="/images/Promo/discovery-filter.png" alt="AI-driven search" loading="lazy" width="1256" height="800" decoding="async" data-nimg="1" className="w-full h-auto block" style="color: transparent;" />
@@ -36,7 +36,7 @@ const Promo = () => {
                 <div className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden border-solid border border-[#e0e1ea1a] bg-background-secondary">
                     <div className="p-6 pb-4 sm:p-8 sm:pb-6 md:p-10 md:pb-8 space-y-1 ">
                         <h6 className={`${inter.className} text-left text-text-primary font-bold css-80xpf1`}>Filter by themes</h6>
-                        <p className="MuiTypography-root MuiTypography-body2 text-left text-text-secondary css-x1l92z">Research top and trending creative strategies</p>
+                        <p className={`${inter.className} text-left text-text-secondary text-base `}>Research top and trending creative strategies</p>
                     </div>
                     <div className="">
                         <Image src="/images/Promo/discovery-search.png" alt="AI-driven search" loading="lazy" width="1256" height="800" decoding="async" data-nimg="1" className="w-full h-auto block" style="color: transparent;" />
