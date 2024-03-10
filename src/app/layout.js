@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation"
 import Head from "next/head";
 import Footer from "@/components/Footer/Footer";
+import { ConfigProvider } from "antd";
 import "./globals.css";
 
 
@@ -14,9 +15,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >
+      <ConfigProvider
+        theme={{
+            components: {
+                Segmented: {
+                  itemHoverColor:"#ffffff",
+                    itemSelectedBg: "#f66c30",
+                    itemColor: "#c5c5ca",
+                    trackBg: "#191a1f",
+                    itemSelectedColor:"#ffffff",
+                    trackPadding: "10px"
+                },
+            },
+        }}
+    >
         <Navigation/>
         {children}
         <Footer/>
+        </ConfigProvider>
       </body>
     </html>
   );
