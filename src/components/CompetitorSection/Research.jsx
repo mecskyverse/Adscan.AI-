@@ -22,12 +22,12 @@ const Research = () => {
                                 <Image priority src={Icon1} />
 
                             </div>
-                            <p className={` ${inter.className} MuiTypography-body2 text-center text-text-primary css-x1l92z`}>Analyze multiple sheets in one session</p>
+                            <p className={` ${inter.className} text-center text-text-primary css-x1l92z`}>Analyze multiple sheets in one session</p>
                         </div>
                         <div className="flex justify-center items-center gap-2"><div className="text-[20px] text-primary h-[20px]">
                             <Image priority src={Icon2} />
                         </div>
-                            <p className={` ${inter.className} MuiTypography-body2 text-center text-text-primary css-x1l92z`}>Actionable suggestions</p>
+                            <p className={` ${inter.className} text-center text-text-primary css-x1l92z`}>Actionable suggestions</p>
                         </div>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 items-center">
@@ -36,13 +36,13 @@ const Research = () => {
                                 <Image priority src={Icon3} />
 
                             </div>
-                            <p className={` ${inter.className} MuiTypography-body2 text-center text-text-primary css-x1l92z`}>Summarize by top keywords</p>
+                            <p className={` ${inter.className} text-center text-text-primary css-x1l92z`}>Summarize by top keywords</p>
                         </div>
                         <div className="flex justify-center items-center gap-2">
                             <div className="text-[20px] text-primary h-[20px]">
                                 <Image priority src={Icon4} />
                             </div>
-                            <p className={` ${inter.className} MuiTypography-body2 text-center text-text-primary css-x1l92z`}>Zoom into relevant reviews</p>
+                            <p className={` ${inter.className} text-center text-text-primary css-x1l92z`}>Zoom into relevant reviews</p>
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ const Research = () => {
             </div>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden border-solid border border-[#e0e1ea1a] bg-background-secondary"><div className="p-6 pb-4 sm:p-8 sm:pb-6 md:p-10 md:pb-8 space-y-1 ">
-                    <h6 className={` ${inter.className} MuiTypography-h6 text-left text-text-primary font-bold css-80xpf1`}>Video transcripts extraction</h6>
-                    <p className={` ${inter.className} MuiTypography-body2 text-left text-text-secondary css-x1l92z`}>Extract your favorite video scripts in one click.</p>
+                    <h6 className={` ${inter.className} text-left text-text-primary font-bold css-80xpf1`}>Video transcripts extraction</h6>
+                    <p className={` ${inter.className} text-left text-text-secondary css-x1l92z`}>Extract your favorite video scripts in one click.</p>
                 </div>
                     <div className="px-10">
                         <Image alt="Video transcripts extraction" loading="lazy" width="1096" height="664" decoding="async" data-nimg="1" className="w-full h-auto block" src="/images/Research/research-following.png" />
@@ -64,8 +64,8 @@ const Research = () => {
                 </div>
                 <div className="rounded-xl sm:rounded-2xl md:rounded-3xl overflow-hidden border-solid border border-[#e0e1ea1a] bg-background-secondary">
                     <div className="p-6 pb-4 sm:p-8 sm:pb-6 md:p-10 md:pb-8 space-y-1 ">
-                        <h6 className={` ${inter.className} MuiTypography-h6 text-left text-text-primary font-bold css-80xpf1`}>Track competitor's ads</h6>
-                        <p className={` ${inter.className} MuiTypography-body2 text-left text-text-secondary css-x1l92z`}>Receive real-time updates on your competitor's latest ads.</p>
+                        <h6 className={` ${inter.className} text-left text-text-primary font-bold css-80xpf1`}>Track competitor's ads</h6>
+                        <p className={` ${inter.className} text-left text-text-secondary css-x1l92z`}>Receive real-time updates on your competitor's latest ads.</p>
                     </div>
                     <div className="px-10">
                         <Image alt="Track competitor's ads" loading="lazy" width="1096" height="664" decoding="async" data-nimg="1" className="w-full h-auto block" src="/images/Research/research-script.png" />
