@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { inter } from '@/utils/fonts'
 const Footer = () => {
     return (
         <footer className="pt-[100px] pb-10 space-y-6">
@@ -17,7 +17,7 @@ const Footer = () => {
                     </svg>
                 </a>
             </div>
-            <p className="MuiTypography-root MuiTypography-body2 text-text-tertiary text-center css-x1l92z">
+            <p className={`${inter.className} text-text-tertiary text-center css-x1l92z`}>
                 © 2024 Adscan AI Made to help you improve your marketing.</p>
         </footer>
 
