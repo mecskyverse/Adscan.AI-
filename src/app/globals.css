@@ -65,6 +65,15 @@ body {
   }
 }
 
+.css-x1l92z {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
 .border-outline-default {
   border-color: hsla(0, 0%, 100%, .12);
 }
@@ -106,8 +115,8 @@ body {
   left: 0;
   bottom: 0;
   width: 300px;
+  height: 100vh;
   background: #2e2e2e;
-
 }
 
 .side-button {
@@ -309,4 +318,54 @@ body {
     font-weight: 500;
     letter-spacing: -0.308px;
   }
+}
+
+
+/* Pricing Section  */
+
+.css-9vn808 {
+  margin: 0px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.384px;
+}
+
+@media (min-width: 768px) {
+  .css-9vn808 {
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.54px;
+  }
+}
+
+.anticon {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Compare Feature Section */
+.feature-tables table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+.feature-tables table tr td,
+.feature-tables table tr th {
+  border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+  padding: 16px;
 }
