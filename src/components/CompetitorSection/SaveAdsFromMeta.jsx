@@ -43,13 +43,11 @@ const SaveAdsFromMeta = () => {
                                 <p className={`${inter.className} text-left text-text-secondary css-x1l92z`}>
                                     Even inactive ads are kept forever</p>
                             </div>
-                            <a target="_blank" href="https://chromewebstore.google.com/u/3/detail/save-facebook-tiktok-ads/infjhonlkjogibobndibmeneioojcffl">
-                                <button className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium mt-6 css-17ppob1" tabIndex="0" type="button">
-                                    <p className={`${inter.className} text-left text-text-primary css-qaz3k7`}>
-                                        Get Chrome Extension</p>
-                                    <span className="MuiTouchRipple-root css-w0pj6f">
-                                    </span>
-                                </button>
+                            <a target="_blank" href="https://chrome.google.com/webstore/detail/adscan-ai-save-facebook-y/dakokilaokefbgcflhljhhbpppfdndik?hl=en&authuser=0">
+                                <div className={`${inter.className} mt-10 gap-4 text-center flex flex-col sm:flex-row justify-center items-center`}>
+                                    <button className="text-white bg-[#F66C30] rounded-xl font-semibold hover:bg-[#b04e24] transition duration-300 ease-in-out px-4 py-2 sm:px-6 sm:py-4 min-w-[64px] text-xs md:text-sm " tabIndex="0" type="button">Save Ads From Meta
+                                    </button>
+                                </div>
                             </a>
                         </div>
                         <div className="relative pb-[73.6%] mx-auto w-[75%] lg:pb-[98.125%] lg:w-full">
