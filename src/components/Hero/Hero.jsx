@@ -38,9 +38,9 @@ const Hero = () => {
                     <Image alt="video-main-bg" fetchPriority="high" width="2560" height="1485" decoding="async" data-nimg="1" className="h-auto w-full max-w-[1280px] relative" src="/images/promo.jpg" style="color: transparent;" />
                     <div onClick={handleVideoClick} className="absolute z-40 transition top-0 left-0 right-0 bottom-0 bg-black  hover:opacity-50 opacity-0 cursor-pointer mask"></div>
                     <div className="absolute top-1/2 left-1/2 play-button rounded-full bg-[#f66c30] w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20">
-                        <span className="animate-ping z-30 absolute inline-flex w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full bg-[#f66c30] opacity-75"></span>
-                        <svg width="22" height="29" viewBox="0 0 22 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative scale-75 md:scale-90 lg:scale-100 z-40"><path d="M20.6842 12.6992C21.8134 13.496 21.8134 15.1706 20.6842 15.9674L3.65311 27.9855C2.32826 28.9204 0.499999 27.9729 0.499999 26.3514L0.5 2.31531C0.5 0.693811 2.32826 -0.25369 3.65311 0.681195L20.6842 12.6992Z" fill="white"></path>
-                        </svg>
+                        <span onClick={handleVideoClick} className="animate-ping z-30 absolute inline-flex w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full bg-[#f66c30] opacity-75"></span>
+                        <span className="cursor-pointer"><svg width="22" height="29" viewBox="0 0 22 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative scale-75 md:scale-90 lg:scale-100 z-40"><path d="M20.6842 12.6992C21.8134 13.496 21.8134 15.1706 20.6842 15.9674L3.65311 27.9855C2.32826 28.9204 0.499999 27.9729 0.499999 26.3514L0.5 2.31531C0.5 0.693811 2.32826 -0.25369 3.65311 0.681195L20.6842 12.6992Z" fill="white"></path>
+                        </svg></span>
                     </div>
 
                 </div>
@@ -53,8 +53,7 @@ const Hero = () => {
                             </span>
                             <div style={{ width: "960px", height: "540px" }}>
                                 <div style={{ width: "100%", height: "100%" }}>
-                                    <iframe frameborder="0" allowfullscreen="" allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Atria walkthrough: Find and make winning ads 10x faster" width="100%" height="100%" src="https://www.youtube.com/embed/WS9xrqdxYRY?autoPlay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Ftryatria.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2">
-                                    </iframe>
+                                    <video src='/videos/newadscandemo.mp4' controls>Your browser does not support the video tag.</video>
                                 </div>
                             </div>
                         </div>
