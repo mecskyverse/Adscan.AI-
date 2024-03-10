@@ -9,7 +9,6 @@ import Review from "@/components/Reviews/Review";
 import StartWinning from "@/components/Reviews/StartWinning";
 // import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
